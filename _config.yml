@@ -4,6 +4,8 @@ title: Zenseact Open Dataset
 theme: minimal-mistakes-jekyll
 #remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
+minimal_mistakes_skin: "zenseact_beige"
+
 include:
   - _data
   - _pages

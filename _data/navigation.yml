@@ -3,4 +3,8 @@ main:
     url: /
   - title: "Docs"
     url: /docs/
+  - title: "Download"
+    url: /download/
+  - title: "License"
+    url: /license/
   
