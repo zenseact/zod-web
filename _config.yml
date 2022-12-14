@@ -2,9 +2,15 @@ title: Zenseact Open Dataset
 
 name: Zenseact
 
+url: carlinds.github.io
+baseurl: /zod_website
+
 # Build settings
-theme: minimal-mistakes-jekyll
-#remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
 
 minimal_mistakes_skin: "zenseact_beige"
 
