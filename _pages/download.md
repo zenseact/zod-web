@@ -1,6 +1,11 @@
 ---
 permalink: /download/
 title:  "Download"
-date:   2022-11-23 19:02:24 +0100
 categories: jekyll update
 ---
+<br>
+
+# How to
+Description of how to download the dataset.
+Mail template.
+Command line example.

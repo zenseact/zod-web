@@ -1,6 +1,17 @@
 ---
 permalink: /docs/
 title:  "Docs"
-date:   2022-11-23 19:02:24 +0100
 categories: jekyll update
+layout: splash
 ---
+<br>
+
+# Toolkit
+Link to toolkit.
+Minimal examples.
+
+# Sensor data
+Thourough description of the raw data.
+
+# Annotations
+Thourough description of the annotations.
