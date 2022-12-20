@@ -8,14 +8,13 @@ header:
 ---
 
 # Summary
-Summary of the dataset.
-Include fancy plots?
+
 ## Sensor setup
+
 ## Data collection
+
 ## Annotations
 
 # Data samples
 
 # Citation
-
-
