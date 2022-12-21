@@ -2,8 +2,8 @@ title: Zenseact Open Dataset
 
 name: Zenseact
 
-url: carlinds.github.io
-baseurl: /zod_website
+url: zenseact.github.io
+baseurl: /zenseact-open-dataset
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
