@@ -48,7 +48,7 @@ To download the full ZodFrames dataset, just drop the `--mini` flag:
 zod download --url <url/to/shared/dropbox/folder> --output-dir <path/to/output/dir> --rm frames
 ```
 
-The following flags can download additional parts of the dataset (not that the surrounding scans take up a lot of space):
+The following flags can download additional parts of the dataset (note that the storage requirements can increase significantly):
 - `--num-scans-before=-1` will download 10 scans before each core frame.
 - `--num-scans-after=-1` will download 10 scans after each core frame.
 - `--dnat` will download the images with DNAT (deep-fake) anonymization.
