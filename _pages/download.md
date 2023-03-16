@@ -6,7 +6,7 @@ categories: jekyll update
 <br>
 
 # Downloading ZOD
-We have made the ZOD available for download through a shared Dropbox folder. To download the dataset, you need to request access to the folder. Once you have been granted access, you can download the dataset using the command line interface (CLI) tool outlined in [Docs](/docs).
+We have made the ZOD available for download through a shared Dropbox folder. To download the dataset, you need to request access to the folder. Once you have been granted access, you can download the dataset using the command line interface (CLI) tool.
 ## Requesting access
 If you are interested in using ZOD, we kindly ask you to requesting access by emailing us at <opendataset@zenseact.com>. Your request should include the following information:
 - Your name
@@ -34,13 +34,21 @@ Once we have received your request, we will review it and get back to you as soo
 
 
 ## Downloading using the CLI
-This is an example of how to download the *Frames* mini dataset using the `zod` CLI tool.
+
+The following will install the `zod` CLI tool and download the mini dataset for initial testing and exploration:
+
 ```
 pip install zod[cli]
-zod download --url <url/to/shared/dropbox/folder> --ourput-dir <path/to/output/dir> frames --mini
+zod download --url <url/to/shared/dropbox/folder> --output-dir <path/to/output/dir> --rm frames --mini
 ```
-and this is how you would download the sequences mini dataset:
+
+To download the full *Frames* dataset, just drop the `--mini` flag:
+
 ```
-pip install zod[cli]
-zod download --url <url/to/shared/dropbox/folder> --ourput-dir <path/to/output/dir> sequences --mini
+zod download --url <url/to/shared/dropbox/folder> --output-dir <path/to/output/dir> --rm frames
 ```
+
+The following flags can download additional parts of the dataset (note that the storage requirements can increase significantly):
+- `--num-scans-before=-1` will download 10 scans before each core frame.
+- `--num-scans-after=-1` will download 10 scans after each core frame.
+- `--dnat` will download the images with DNAT (deep-fake) anonymization.
