@@ -34,8 +34,13 @@ Once we have received your request, we will review it and get back to you as soo
 
 
 ## Downloading using the CLI
-
+This is an example of how to download the *Frames* mini dataset using the `zod` CLI tool.
 ```
-pip install zod
-zod download --url <url/to/shared/dropbox/folder> --ourput-dir <path/to/output/dir> --images --extract --rm --parallel
+pip install zod[cli]
+zod download --url <url/to/shared/dropbox/folder> --ourput-dir <path/to/output/dir> frames --mini
+```
+and this is how you would download the sequences mini dataset:
+```
+pip install zod[cli]
+zod download --url <url/to/shared/dropbox/folder> --ourput-dir <path/to/output/dir> sequences --mini
 ```

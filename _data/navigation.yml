@@ -1,10 +1,15 @@
 main:
-  - title: "Home"
-    url: /
-  - title: "Docs"
-    url: /docs/
+  - title: "Frames"
+    url: /frames/
+  - title: "Sequences"
+    url: /sequences/
+  - title: "Drives"
+    url: /drives/
+  - title: "Annotations"
+    url: /annotations/
   - title: "Download"
     url: /download/
+  - title: "Team"
+    url: /team/
   - title: "License"
     url: /license/
-  
