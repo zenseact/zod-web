@@ -21,7 +21,7 @@ gallery:
     website: "https://ljungbergh.com"
 
   - title: "Adam Tonderski"
-    image_path: /assets/images/profile_placeholder.png
+    image_path: /assets/images/profiles/adam_tonderski.jpg
     position: "PhD Student"
     linkedin: "https://se.linkedin.com/in/adamtonderski"
     github: "https://github.com/adaton"
