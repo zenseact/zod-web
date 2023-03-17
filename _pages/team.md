@@ -3,7 +3,6 @@ permalink: /team/
 categories: jekyll update
 title:  "ZOD Team"
 layout: splash
-
 gallery:
   - title: "Mina Alibeigi"
     image_path: /assets/images/profile_placeholder.png
@@ -14,7 +13,7 @@ gallery:
 
   - title: "William Ljungbergh"
     url: https://ljungbergh.com
-    image_path: /assets/images/profile_placeholder.png
+    image_path: /assets/images/profiles/william_ljungbergh.jpg
     position: "PhD Student"
     linkedin: "https://www.linkedin.com/in/william-ljungbergh/"
     scholar: "https://scholar.google.com/citations?user=RXEPFo0AAAAJ"
@@ -30,7 +29,7 @@ gallery:
 
   - title: "Georg Hess"
     url: https://georghess.github.io/
-    image_path: /assets/images/profile_placeholder.png
+    image_path: /assets/images/profiles/georg_hess.jpg
     position: "PhD Student"
     linkedin: "https://www.linkedin.com/in/georghess"
     github: "https://github.com/geogrhess"
@@ -71,8 +70,12 @@ gallery:
 
 ---
 <br>
-
 # The Team
-The Zenseact Open Dataset is developed and mainted by a group of researchers, engineers, and PhD students at Zenseact. We hope that the dataset will be useful for the autonomous driving  community and we are happy to receive feedback and suggestions for improvements.
+The Zenseact Open Dataset is developed and maintained by a group of researchers, engineers, and PhD students at Zenseact. We hope that the dataset will be useful for the autonomous driving community and we are happy to receive feedback and suggestions for improvements.
 
 {% include author_gallery.html%}
+---
+<br>
+
+# Acknowledgments
+The Zenseact Open Dataset would not be possible without the support of several individuals within our organization. We would like to thank, without any particular order, the following people for their contributions to the dataset: Oleksandr Panasenko, Jakub Bochynski, Dónal Scanlan, Benny Nilsson, Jenny Widahl, Jonas Ekmark, Bolin Shao, Georgios Efthymiou, Erik Rosén, and Erik Coelingh.
