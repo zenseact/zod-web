@@ -37,7 +37,7 @@ gallery:
     website: "https://georghess.github.io/"
 
   - title: "Adam Lilja"
-    image_path: /assets/images/profile_placeholder.png
+    image_path: /assets/images/profiles/adam_lilja.jpg
     position: "PhD Student"
     scholar: "https://scholar.google.se/citations?hl=en&user=zYn4o0AAAAAJ"
     linkedin: "https://www.linkedin.com/in/adamlilja"
