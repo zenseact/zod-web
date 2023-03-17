@@ -1,7 +1,78 @@
 ---
 permalink: /team/
-title:  "ZOD Team"
 categories: jekyll update
+title:  "ZOD Team"
 layout: splash
+
+gallery:
+  - title: "Mina Alibeigi"
+    image_path: /assets/images/profile_placeholder.png
+    position: "Researcher"
+    scholar: "https://scholar.google.com/citations?hl=en&user=gJA_rJYAAAAJ"
+    github: "https://github.com/alibeigi"
+    linkedin: "https://www.linkedin.com/in/mina-alibeigi-2b47739a"
+
+  - title: "William Ljungbergh"
+    url: https://ljungbergh.com
+    image_path: /assets/images/profile_placeholder.png
+    position: "PhD Student"
+    linkedin: "https://www.linkedin.com/in/william-ljungbergh/"
+    scholar: "https://scholar.google.com/citations?user=RXEPFo0AAAAJ"
+    github: "https://github.com/wljungbergh"
+    website: "https://ljungbergh.com"
+
+  - title: "Adam Tonderski"
+    image_path: /assets/images/profile_placeholder.png
+    position: "PhD Student"
+    linkedin: "https://se.linkedin.com/in/adamtonderski"
+    github: "https://github.com/adaton"
+    scholar: "https://scholar.google.se/citations?user=2R5ZLp0AAAAJ"
+
+  - title: "Georg Hess"
+    url: https://georghess.github.io/
+    image_path: /assets/images/profile_placeholder.png
+    position: "PhD Student"
+    linkedin: "https://www.linkedin.com/in/georghess"
+    github: "https://github.com/geogrhess"
+    scholar: "https://scholar.google.com/citations?user=ZvUoV2EAAAAJ"
+    website: "https://georghess.github.io/"
+
+  - title: "Adam Lilja"
+    image_path: /assets/images/profile_placeholder.png
+    position: "PhD Student"
+    scholar: "https://scholar.google.se/citations?hl=en&user=zYn4o0AAAAAJ"
+    linkedin: "https://www.linkedin.com/in/adamlilja"
+    github: "https://github.com/LiljaAdam"
+
+
+  - title: "Carl Lindström"
+    image_path: /assets/images/profile_placeholder.png
+    position: "PhD Student"
+    linkedin: "https://www.linkedin.com/in/carl-lindstr%C3%B6m-184b8a149/"
+    github: "https://github.com/carlinds"
+    scholar: "https://scholar.google.com/citations?hl=en&user=ufjSqs0AAAAJ"
+
+  - title: "Daria Motorniuk"
+    image_path: /assets/images/profile_placeholder.png
+    position: "Development Engineer"
+    scholar: https://scholar.google.com/citations?hl=en&user=RT0Mw8wAAAAJ
+    linkedin: "https://www.linkedin.com/in/daria-motorniuk-a933a37a"
+
+  - title: "Junsheng Fu"
+    image_path: /assets/images/profile_placeholder.png
+    position: "Researcher"
+    scholar: https://scholar.google.com/citations?hl=en&user=z3lud1UAAAAJ
+    linkedin: "https://www.linkedin.com/in/junshengfu"
+
+  - title: "Christoffer Petersson"
+    image_path: /assets/images/profile_placeholder.png
+    position: "Researcher"
+    scholar: https://scholar.google.com/citations?hl=en&user=SeRMUJwAAAAJ
+
 ---
 <br>
+
+# The Team
+The Zenseact Open Dataset is developed and mainted by a group of researchers, engineers, and PhD students at Zenseact. We hope that the dataset will be useful for the autonomous driving  community and we are happy to receive feedback and suggestions for improvements.
+
+{% include author_gallery.html%}
