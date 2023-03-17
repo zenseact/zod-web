@@ -52,13 +52,13 @@ gallery:
     scholar: "https://scholar.google.com/citations?hl=en&user=ufjSqs0AAAAJ"
 
   - title: "Daria Motorniuk"
-    image_path: /assets/images/profile_placeholder.png
+    image_path: /assets/images/profiles/daria_motorniuk.jpg
     position: "Development Engineer"
     scholar: https://scholar.google.com/citations?hl=en&user=RT0Mw8wAAAAJ
     linkedin: "https://www.linkedin.com/in/daria-motorniuk-a933a37a"
 
   - title: "Junsheng Fu"
-    image_path: /assets/images/profile_placeholder.png
+    image_path: /assets/images/profiles/junsheng_fu.jpg
     position: "Researcher"
     scholar: https://scholar.google.com/citations?hl=en&user=z3lud1UAAAAJ
     linkedin: "https://www.linkedin.com/in/junshengfu"
