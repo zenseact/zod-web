@@ -64,7 +64,7 @@ gallery:
     linkedin: "https://www.linkedin.com/in/junshengfu"
 
   - title: "Christoffer Petersson"
-    image_path: /assets/images/profile_placeholder.png
+    image_path: /assets/images/profiles/christoffer_petersson.jpg
     position: "Researcher"
     scholar: https://scholar.google.com/citations?hl=en&user=SeRMUJwAAAAJ
 
