@@ -45,7 +45,7 @@ gallery:
 
 
   - title: "Carl Lindström"
-    image_path: /assets/images/profile_placeholder.png
+    image_path: /assets/images/profiles/carl_lindstrom.jpg
     position: "PhD Student"
     linkedin: "https://www.linkedin.com/in/carl-lindstr%C3%B6m-184b8a149/"
     github: "https://github.com/carlinds"
