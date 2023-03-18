@@ -60,8 +60,11 @@ gallery:
   - title: "Junsheng Fu"
     image_path: /assets/images/profiles/junsheng_fu.jpg
     position: "Researcher"
+    url: "https://junshengfu.github.io"
     scholar: https://scholar.google.com/citations?hl=en&user=z3lud1UAAAAJ
     linkedin: "https://www.linkedin.com/in/junshengfu"
+    github: "https://github.com/JunshengFu"
+    webiste: "https://junshengfu.github.io"
 
   - title: "Christoffer Petersson"
     image_path: /assets/images/profiles/christoffer_petersson.jpg
