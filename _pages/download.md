@@ -37,16 +37,16 @@ Once we have received your request, we will review it and get back to you as soo
 
 The following will install the `zod` CLI tool and download the mini dataset for initial testing and exploration:
 
-```
+{% highlight python linenos %}
 pip install zod[cli]
 zod download --url <url/to/shared/dropbox/folder> --output-dir <path/to/output/dir> --rm frames --mini
-```
+{% endhighlight %}
 
 To download the full *Frames* dataset, just drop the `--mini` flag:
 
-```
+{% highlight python linenos %}
 zod download --url <url/to/shared/dropbox/folder> --output-dir <path/to/output/dir> --rm frames
-```
+{% endhighlight %}
 
 The following flags can download additional parts of the dataset (note that the storage requirements can increase significantly):
 - `--num-scans-before=-1` will download 10 scans before each core frame.
