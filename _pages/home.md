@@ -43,8 +43,6 @@ The high-precision GNSS/IMU data is logged at `100Hz` and stored as `HDF5` files
 ##### Vehicle data: Production-grade vehicle data
 Various vehicle data are also released for *Sequences* and *Drives*. These include vehicle control signals such as `steering wheel angle`, `acceleration/brake pedal ratios`, and `turn indicator status`, as well as consumer-grade IMU and satellite positioning data. The vehicle control signals, IMU, and satellite positioning data are logged at `100Hz`, `50Hz`, and `1Hz` respectively.
 
-## Data samples
-
 ## Citation
 If you publish work that uses Zenseact Open Dataset, please cite our [coming soon]()
 
