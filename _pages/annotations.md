@@ -74,7 +74,22 @@ The dynamic objects are categorized into 4 top-level classes, namely `Vehicle`, 
 ## Lane markings & road paintings
 
 ## Traffic signs
-The traffic sign annotations refer to the front-facing traffic signs that are visible in the image. Note that only signs related to traffic are labeled i.e., advertisement boards etc., should not be labeled.
+![image-left](/assets/images/traffic_signs.jpg){: .align-right width="25%" }
+The traffic sign annotations refer to the front-facing traffic signs that are visible in the image. Note that only signs related to traffic are labeled i.e., advertisement boards etc., should not be labeled. See a selection of traffic signs in the image to the right. In total, we have annotated 446k traffic sign instances across 156 classes with large variations in viewing angle, distance, lighting condition etc.
+The list of classes is shown in the table below.
+
+Note that `MaximumSpeedLimitXBegin`, `MaximumSpeedLimitXEnd`, `SpeedLimitZoneXBegin`, and `SpeedLimitZoneXEnd` are given as a range of values, where `X` is the maximum speed limit in km/h. For example, `MaximumSpeedLimit50Begin` refers to a traffic sign that indicates the beginning of a zone with a maximum speed limit of 50 km/h. These are given in range from 5 to 130 km/h in steps of 5 km/h.
+
+| Top-level | Sub-classes |
+|-----------|-------------|
+| `Mandatory` | `PassOnThisSideLeft`, `PassOnThisSideRight`,  `PassOnEitherSide`, `ProceedStraightOrTurnLeft`, `ProceedStraight`, `ProceedStraightOrTurnRight`, `TurnLeftAhead`, `TurnRightAhead`, `TurnAhead`, `TurnRight`, `TurnLeft`, `Roundabout`|
+|`Priority`|`GiveWay`,  `GiveWayOncoming`, `PriorityStop`, `PrioOverOncoming`, `PriorityRoadBegin`, `PriorityRoadEnd`|
+|`Prohibatory`|`NoEntry`, `NoParking`, `NoStopping`, `NoUTurn`, `NoTurn`, `RoadClosed`, `NoOvertakingBegin`, `NoOvertakingEnd`, `MaximumSpeedLimitXBegin`, `MaximumSpeedLimitXEnd`, `SpeedLimitZoneXBegin`, `SpeedLimitZoneXEnd`|
+|`RoadType`|`MotorwayBegin`, `MotorwayEnd`|
+|`Warning`|`VulnurableRoadUserCrossing`, `VulnurableRoadUserPathWay`, `IndicationCameraSurveillance` |
+|`Special`|`Children`, `Crossing`, `Cyclists`, `Animal`, `Curve`, `RoadWorkBegin`, `RoadWorkEnd`,  `Roundabout`, `TrafficSignalAhead`,  `RoadNarrows`, `RoadBump`, `RoughRoad`,  `Slippery`, `GenericWarning`, `CongestionAhead`, `TwoWayTraffic`, `MergingTraffic`, `Crossroads`, `DoubleCurve`, `TunnelAhead`|
+|`Not Listed` | `Not Listed` |
+|`Unclear`|`Unclear`|
 
 ## Ego road
 
