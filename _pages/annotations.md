@@ -74,7 +74,7 @@ The dynamic objects are categorized into 4 top-level classes, namely `Vehicle`, 
 ## Lane markings & road paintings
 
 ## Traffic signs
-![image-left](/assets/images/traffic_signs.jpg){: .align-right width="25%" }
+![Traffic sign examples](/assets/images/traffic_signs.jpg){: .align-right width="25%" }
 The traffic sign annotations refer to the front-facing traffic signs that are visible in the image. Note that only signs related to traffic are labeled i.e., advertisement boards etc., should not be labeled. See a selection of traffic signs in the image to the right. In total, we have annotated 446k traffic sign instances across 156 classes with large variations in viewing angle, distance, lighting condition etc.
 The list of classes is shown in the table below.
 
@@ -92,6 +92,12 @@ Note that `MaximumSpeedLimitXBegin`, `MaximumSpeedLimitXEnd`, `SpeedLimitZoneXBe
 |`Unclear`|`Unclear` refer to a sign for which it is not possible to distinguish between the classes above.|
 
 ## Ego road
+
+|Class| Comment |
+|-----|---------|
+|`Road`|The ego-road annotations contain polygons that describe the road surface on which the ego vehicle is travelling, including roads that are connected by splits, merges, entrances and exits to this road, entrances/exits on highways and to parking lots, but not the parking lot itself, unless the Ego Car is in the parking lot. Speed bumps and other road infrastructure meant to be driven over should also be annotated as ego road. Roads of oncoming traffic separated by a barrier and other roads not connected to the ego vehicles road should not be annotated.|
+|`Debris`|Debris class covers any rigid body objects larger than 15x15x15 cm located on an ego road, which are foreign to the normal roadway environment and pose danger to vehicles (the ego vehicle and vehicles on other lanes) hence interfere with normal driving. There is no upper limit of the size of a debris. Smaller objects and soft objects (like plastic bags, cups, paper etc.) do not count as debris. Objects which are parts of permanent road infrastructure (e.g. permanent bollards separating lanes or speed bumps are not Debris )|
+
 
 ## Road surface
 The road surface classification label is simply a binary label indicating the condition of the road surface across the entire scene. We provide binary labels for `wetness` and `snow_coverage.`
