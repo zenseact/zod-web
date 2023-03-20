@@ -5,7 +5,7 @@ title:  "ZOD Team"
 layout: splash
 gallery:
   - title: "Mina Alibeigi"
-    image_path: /assets/images/profile_placeholder.png
+    image_path: /assets/images/profiles/mina_alibeigi.jpg
     position: "Researcher"
     scholar: "https://scholar.google.com/citations?hl=en&user=gJA_rJYAAAAJ"
     github: "https://github.com/alibeigi"
