@@ -13,17 +13,17 @@ carousels:
 ---
 
 # Zenseact Open Dataset
-The **Zenseact Open Dataset** (ZOD) is a large multi-modal autonomous driving (AD) dataset, created by researchers at Zenseact. It was collected over a 2-year period in 14 different European counties, using a fleet of vehicles equipped with a full sensor suite. The dataset consists of three subsets: [*Frames*](/frames), [*Sequences*](/sequences), and [*Drives*](/drives), designed to encompass both data diversity and support for spatio-temporal learning, sensor fusion, localization, and mapping.
+The **Zenseact Open Dataset** (ZOD) is a large multi-modal autonomous driving (AD) dataset, created by researchers at Zenseact. It was collected over a 2-year period in 14 different European counties, using a fleet of vehicles equipped with a full sensor suite. The dataset consists of three subsets: [*Frames*](/frames), [*Sequences*](/sequences), and [*Drives*](/drives), designed to encompass both data diversity and support for spatiotemporal learning, sensor fusion, localization, and mapping.
 
-*Frames* consist of 100k curated camera images with two seconds of other supporting sensor data, while the 1473 *Sequences* and 29 *Drives* include the entire sensor suite for 20 seconds and a few minutes, respectively. To see examples from each of the subset, please visit their respective pages.
+*Frames* consist of 100k curated camera images with two seconds of other supporting sensor data, while the 1473 *Sequences* and 29 *Drives* include the entire sensor suite for 20 seconds and a few minutes, respectively. To see examples from each of the subsets, please visit their respective pages.
 
-**Noteably**, ZOD is currently the only AD dataset released under the permissive `CC BY-SA 4.0` license, allowing for both commercial and non-commercial use. We belive that this will help the community to advance the state-of-the-art in autonomous driving as it can enable smaller companies to use the dataset for research, benchmarking, and development. For more information about the license, see [here](/license).
+**Noteably**, ZOD is currently the only AD dataset released under the permissive `CC BY-SA 4.0` license, allowing for both commercial and non-commercial use. We believe that this will help the community to advance the state-of-the-art in autonomous driving as it can enable smaller companies to use the dataset for research, benchmarking, and development. For more information about the license, see [here](/license).
 
 ## Annotations
-Together with our dataset, we also relsease a comprehensive set of annotations for several different tasks. For more detialed information about the annotations, visit the [Annotations](/annotations) page. In summary, the following annotations are provided:
+Together with our dataset, we also release a comprehensive set of annotations for several different tasks. For more detailed information about the annotations, visit the [Annotations](/annotations) page. In summary, the following annotations are provided:
 - **Objects**: 2D and 3D bounding boxes for static and dynamic objects in the scene.
 - **Lane markings**: Instance and semantic segmentation of lane markings and road paintings.
-- **Ego road**: Semantic semgmentation of ego-road
+- **Ego road**: Semantic segmentation of ego-road
 - **Traffic signs**: Classification labels with a taxonomy of 156 different traffic sign classes.
 - **Road condition**: Classification of the road-surface condition (e.g., wet or snow).
 
@@ -31,11 +31,8 @@ The images below show examples of the annotations for the different tasks.
  {% include carousel.html height="45" unit="%" number="1" %}
 
 ## Sensor setup
-<!-- <figure style="width: 50%;" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sensor_positions.png" alt="">
-  <figcaption>Sensor setup.</figcaption>r
-</figure> -->
-The data collection has been conducted using several vehicles with an identical sensor layout driven around Europe over the course of two years. The cars are equipped with a **high-resolution camera**, **3x LiDARs**, a **high-precision GNSS/IMU** sensor and other consumer-grade sensors. The sensor setup is outlined in the figure below and each sensor is described in more detail below.
+![Sensor setup](/assets/images/sensor_positions.png){: .align-right width="50%"}
+The data collection has been conducted using several vehicles with an identical sensor layout driven around Europe over two years. The cars are equipped with a **high-resolution camera**, **3x LiDARs**, a **high-precision GNSS/IMU** sensor and other consumer-grade sensors. The sensor setup is outlined in the figure to the right and each sensor is described in more detail below.
 ##### Camera: 1x 120&deg; FOV 3848x2168 RGB camera.
 The camera data is captured by high-resolution (8MP) wide-angle fish-eye lenses. All raw captured camera data is converted to RGB images using an internal production-level image signal processor. The RGB camera images are captured at `10Hz` and provided as `jpg` files. However, if requested, we can also provide lossless `png` files.
 ##### LiDAR: 1x Velodyne VLS128 and 2x Velodyne VLP16.
