@@ -88,9 +88,10 @@ Note that `MaximumSpeedLimitXBegin`, `MaximumSpeedLimitXEnd`, `SpeedLimitZoneXBe
 |`RoadType`|`MotorwayBegin`, `MotorwayEnd`|
 |`Warning`|`VulnurableRoadUserCrossing`, `VulnurableRoadUserPathWay`, `IndicationCameraSurveillance` |
 |`Special`|`Children`, `Crossing`, `Cyclists`, `Animal`, `Curve`, `RoadWorkBegin`, `RoadWorkEnd`,  `Roundabout`, `TrafficSignalAhead`,  `RoadNarrows`, `RoadBump`, `RoughRoad`,  `Slippery`, `GenericWarning`, `CongestionAhead`, `TwoWayTraffic`, `MergingTraffic`, `Crossroads`, `DoubleCurve`, `TunnelAhead`|
-|`Not Listed` | `Not Listed` |
-|`Unclear`|`Unclear`|
+|`Not Listed` | `Not Listed` refer to all signs that do not fall into any of the categories above.|
+|`Unclear`|`Unclear` refer to a sign for which it is not possible to distinguish between the classes above.|
 
 ## Ego road
 
 ## Road surface
+The road surface classification label is simply a binary label indicating the condition of the road surface across the entire scene. We provide binary labels for `wetness` and `snow_coverage.`
