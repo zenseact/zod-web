@@ -92,6 +92,7 @@ Note that `MaximumSpeedLimitXBegin`, `MaximumSpeedLimitXEnd`, `SpeedLimitZoneXBe
 |`Unclear`|`Unclear` refer to a sign for which it is not possible to distinguish between the classes above.|
 
 ## Ego road
+The ego road annotations refer to polygons in the image that describe the road surface on which the ego vehicle is travelling. It is divided into two classes: `Road` and `Debris` as shown in the table below.s
 
 |Class| Comment |
 |-----|---------|
