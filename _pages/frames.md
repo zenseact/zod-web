@@ -41,7 +41,9 @@ ZOD contains data from various driving conditions, ranging from slow-moving city
   <figcaption>The amount of annotated Frames per project.</figcaption>
 </figure>
 
-The ZOD Frames dataset is fully annotated (i.e., every *Frame*) for the `Objects`, `Lanes`, and `Road Condition` annotation tasks. Moreover, roughly 67% of all Frames are also annotated for the `Traffic Signs` and `Ego Road` annotation tasks, see the figure to the right. For more detail on each of the annotation tasks, please refer to the [Annotation](/annotation/) page. **Note** that we provide annotations for the camera-LiDAR pairs, but not for the surrounding LiDAR data.
+The ZOD Frames dataset is fully annotated (i.e., every *Frame*) for the `Objects`, `Lanes`, and `Road Condition` annotation tasks. Moreover, roughly 67% of all Frames are also annotated for the `Traffic Signs` and `Ego Road` annotation tasks, see the figure to the right. For more detail on each of the annotation tasks, please refer to the [Annotation](/annotation/) page.
+
+**Note** that we provide annotations for the camera-LiDAR pairs, but not for the surrounding LiDAR data.
 
 
 ## Data samples
