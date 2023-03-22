@@ -11,7 +11,7 @@ layout: splash
 # ZOD Frames
 <figure class="align-right" style="width: 30%; margin-top: 0;">
   <a href="/assets/images/frames/geographical_distribution_frames.png">
-  <img src="/assets/images/frames/geographical_distribution_frames.png"></a>
+  <img src="/assets/images/frames/geographical_distribution_frames.png" alt=""></a>
   <figcaption>Geographical distribution of ZOD Frames.</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ ZOD Frames is a **highly diverse dataset**, with data collected from **14 Europe
 
 <figure style="width: 67%;">
   <a href="/assets/images/frames/pie_charts_diversity.png">
-  <img src="/assets/images/frames/pie_charts_diversity_no_bg.png"></a>
+  <img src="/assets/images/frames/pie_charts_diversity_no_bg.png" alt=""></a>
   <figcaption>Distribution over time of day (left), road type (center), and weather (right) in ZOD Frames.</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ ZOD contains data from various driving conditions, ranging from slow-moving city
 
 <figure class="align-center">
   <a href="/assets/images/frames/ann_obj_dist.png">
-  <img src="/assets/images/frames/ann_obj_dist.png"></a>
+  <img src="/assets/images/frames/ann_obj_dist.png" alt=""></a>
   <figcaption> Distribution of the distance to the ego-vehicle over all annotated objects in nuScenes, Waymo Open, Argoverse2, and ZOD Frames.</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ ZOD contains data from various driving conditions, ranging from slow-moving city
 ## Annotation
 <figure class="align-right" style="width: 30%; margin-top:0;">
   <a href="/assets/images/frames/project_counts.png">
-  <img src="/assets/images/frames/project_counts.png"></a>
+  <img src="/assets/images/frames/project_counts.png" alt=""></a>
   <figcaption>The amount of annotated Frames per project.</figcaption>
 </figure>
 
@@ -48,62 +48,60 @@ The ZOD Frames dataset is fully annotated (i.e., every *Frame*) for the `Objects
 Here, we show some data samples from the dataset. We deliberately show scenes that reflect the diversity of the dataset, including scenes where the sensors are obscured by adverse weather.
 
 <figure class="half">
-<a href="/assets/images/frames/000766_camera.jpg">
-<img src="/assets/images/frames/000766_camera.jpg"></a>
-<a href="/assets/images/frames/000766_lidar.png">
-<img src="/assets/images/frames/000766_lidar.png"></a>
+<a href="/assets/images/frames/000766_camera.jpg" title="Camera Frame #000766" alt="Camera Frame #000766">
+<img src="/assets/images/frames/000766_camera.jpg"  alt=""></a>
+<a href="/assets/images/frames/000766_lidar.png" title="Lidar Frame #000766" alt="Lidar Frame #000766">
+<img src="/assets/images/frames/000766_lidar.png" alt=""></a>
 <figcaption>Rainy scene, obscuring both camera and LiDAR. Note the hallucinated wall in the point cloud (in the front-left of the ego-vehicle) caused by water droplets on the sensor. Frame #000766.</figcaption>
 </figure>
 
 <figure class="half">
-<a href="/assets/images/frames/024234_camera.jpg">
-<img src="/assets/images/frames/024234_camera.jpg"></a>
-<a href="/assets/images/frames/024234_lidar.png">
-<img src="/assets/images/frames/024234_lidar.png"></a>
+<a href="/assets/images/frames/024234_camera.jpg" title="Camera Frame #024234" alt="Camera Frame #024234">
+<img src="/assets/images/frames/024234_camera.jpg" alt=""></a>
+<a href="/assets/images/frames/024234_lidar.png" title="Lidar Frame #024234" alt="Lidar Frame #024234">
+<img src="/assets/images/frames/024234_lidar.png" alt=""></a>
 <figcaption>Crowded downtown scene. Frame #024234.</figcaption>
 </figure>
 
 <figure class="half">
-<a href="/assets/images/frames/066087_camera.jpg">
-<img src="/assets/images/frames/066087_camera.jpg"></a>
-<a href="/assets/images/frames/066087_lidar.png">
-<img src="/assets/images/frames/066087_lidar.png"></a>
+<a href="/assets/images/frames/066087_camera.jpg" title="Camera Frame #066087" alt="Camera Frame #066087">
+<img src="/assets/images/frames/066087_camera.jpg" alt=""></a>
+<a href="/assets/images/frames/066087_lidar.png" title="Lidar Frame #066087" alt="Lidar Frame #066087">
+<img src="/assets/images/frames/066087_lidar.png" alt=""></a>
 <figcaption>Highway driving during heavy rain. Spray from vehicles in front hinders visibility in the camera and blocks the LiDAR. Frame #066087.</figcaption>
 </figure>
 
 
-
-
 <figure class="half">
-<a href="/assets/images/frames/097490_camera.jpg">
-<img src="/assets/images/frames/097490_camera.jpg"></a>
-<a href="/assets/images/frames/097490_lidar.png">
-<img src="/assets/images/frames/097490_lidar.png"></a>
+<a href="/assets/images/frames/097490_camera.jpg" title="Camera Frame #097490" alt="Camera Frame #097490">
+<img src="/assets/images/frames/097490_camera.jpg" alt=""></a>
+<a href="/assets/images/frames/097490_lidar.png" title="Lidar Frame #097490" alt="Lidar Frame #097490">
+<img src="/assets/images/frames/097490_lidar.png" alt=""></a>
 <figcaption>Driving in snowy conditions during the night on a curvy road. Frame #094790.</figcaption>
 </figure>
 
 <figure class="half">
-<a href="/assets/images/frames/096284_camera.jpg">
-<img src="/assets/images/frames/096284_camera.jpg"></a>
-<a href="/assets/images/frames/096284_lidar.png">
-<img src="/assets/images/frames/096284_lidar.png"></a>
+<a href="/assets/images/frames/096284_camera.jpg" title="Camera Frame #096284" alt="Camera Frame #096284">
+<img src="/assets/images/frames/096284_camera.jpg" alt=""></a>
+<a href="/assets/images/frames/096284_lidar.png" title="Lidar Frame #096284" alt="Lidar Frame #096284">
+<img src="/assets/images/frames/096284_lidar.png" alt=""></a>
 <figcaption>Driving on completely road completely covered in snow. Frame #096284</figcaption>
 </figure>
 
 <figure class="half">
-<a href="/assets/images/frames/058594_camera.jpg">
-<img src="/assets/images/frames/058594_camera.jpg"></a>
-<a href="/assets/images/frames/058594_lidar.png">
-<img src="/assets/images/frames/058594_lidar.png"></a>
+<a href="/assets/images/frames/058594_camera.jpg" title="Camera Frame #058594" alt="Camera Frame #058594">
+<img src="/assets/images/frames/058594_camera.jpg" alt=""></a>
+<a href="/assets/images/frames/058594_lidar.png" title="Lidar Frame #058594" alt="Lidar Frame #058594">
+<img src="/assets/images/frames/058594_lidar.png" alt=""></a>
 <figcaption>Arterial road during twilight. Frame #058594.</figcaption>
 </figure>
 
 
 <figure class="half">
-<a href="/assets/images/frames/053409_camera.jpg">
-<img src="/assets/images/frames/053409_camera.jpg"></a>
-<a href="/assets/images/frames/053409_lidar.png">
-<img src="/assets/images/frames/053409_lidar.png"></a>
+<a href="/assets/images/frames/053409_camera.jpg" title="Camera Frame #053409" alt="Camera Frame #053409">
+<img src="/assets/images/frames/053409_camera.jpg" alt=""></a>
+<a href="/assets/images/frames/053409_lidar.png" title="Lidar Frame #053409" alt="Lidar Frame #053409">
+<img src="/assets/images/frames/053409_lidar.png" alt=""></a>
 <figcaption>Highway driving during the night. The road and vehicles are only illuminated by headlights. Frame #053409.</figcaption>
 </figure>
 
@@ -112,10 +110,10 @@ Here, we show some data samples from the dataset. We deliberately show scenes th
 Here, we show some additional interesting statistics about the ZOD Frames dataset, starting with the number of annotated instances for `Objects` and `Lanes`.
 <figure class="half">
   <a href="/assets/images/frames/object_counts.png">
-  <img src="/assets/images/frames/object_counts.png"></a>
+  <img src="/assets/images/frames/object_counts.png" alt=""></a>
 
   <a href="/assets/images/frames/lane_counts.png">
-  <img  src="/assets/images/frames/lane_counts.png"></a>
+  <img  src="/assets/images/frames/lane_counts.png" alt=""></a>
   <figcaption>The number of annotated object instances (left) and the number of lane instances (right). Note that the objects are split based on whether or not they are annotated in 2D and 3D. </figcaption>
 </figure>
 
@@ -123,12 +121,12 @@ ZOD Frames is collected from a wide range of traffic scenarios, including downto
 
 <figure class="align-center" style="width: 67%;">
   <a href="/assets/images/frames/cuboids_per_frame.png">
-  <img src="/assets/images/frames/cuboids_per_frame.png"></a>
+  <img src="/assets/images/frames/cuboids_per_frame.png" alt=""></a>
   <figcaption>The number of annotated 3D object instances per frame. </figcaption>
 </figure>
 
 
-[^1]: Sun, Pei, et al. <a href="https://arxiv.org/abs/1912.04838">"Scalability in perception for autonomous driving: Waymo open dataset."</a> Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020.
+[^1]: Sun, Pei, et al. <a href="https://arxiv.org/abs/1912.04838">"Scalability in perception for autonomous driving: Waymo open dataset. alt="""</a> Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020.
 [^2]: Caesar, Holger, et al. <a href="https://arxiv.org/abs/1903.11027"> "nuScenes: A multimodal dataset for autonomous driving."<a/> Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020.
-[^3]: Benjamin Wilson, et al. <a href="https://arxiv.org/abs/2301.00493">"Argoverse 2: Next Generation Datasets for Self-driving Perception and Forecasting"</a>. In Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks (NeurIPS Datasets and Benchmarks). 2021.
+[^3]: Benjamin Wilson, et al. <a href="https://arxiv.org/abs/2301.00493">"Argoverse 2: Next Generation Datasets for Self-driving Perception and Forecasting alt="""</a>. In Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks (NeurIPS Datasets and Benchmarks). 2021.
 {:footnotes}
