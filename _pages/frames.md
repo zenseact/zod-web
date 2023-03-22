@@ -45,7 +45,67 @@ The ZOD Frames dataset is fully annotated (i.e., every *Frame*) for the `Objects
 
 
 ## Data samples
+Here, we show some data samples from the dataset. We deliberately show scenes that reflect the diversity of the dataset, including scenes where the sensors are obscured by adverse weather.
 
+<figure class="half">
+<a href="/assets/images/frames/000766_camera.jpg">
+<img src="/assets/images/frames/000766_camera.jpg"></a>
+<a href="/assets/images/frames/000766_lidar.png">
+<img src="/assets/images/frames/000766_lidar.png"></a>
+<figcaption>Rainy scene, obscuring both camera and LiDAR. Note the hallucinated wall in the point cloud (in the front-left of the ego-vehicle) caused by water droplets on the sensor. Frame #000766.</figcaption>
+</figure>
+
+<figure class="half">
+<a href="/assets/images/frames/024234_camera.jpg">
+<img src="/assets/images/frames/024234_camera.jpg"></a>
+<a href="/assets/images/frames/024234_lidar.png">
+<img src="/assets/images/frames/024234_lidar.png"></a>
+<figcaption>Crowded downtown scene. Frame #024234.</figcaption>
+</figure>
+
+<figure class="half">
+<a href="/assets/images/frames/066087_camera.jpg">
+<img src="/assets/images/frames/066087_camera.jpg"></a>
+<a href="/assets/images/frames/066087_lidar.png">
+<img src="/assets/images/frames/066087_lidar.png"></a>
+<figcaption>Highway driving during heavy rain. Spray from vehicles in front hinders visibility in the camera and blocks the LiDAR. Frame #066087.</figcaption>
+</figure>
+
+
+
+
+<figure class="half">
+<a href="/assets/images/frames/097490_camera.jpg">
+<img src="/assets/images/frames/097490_camera.jpg"></a>
+<a href="/assets/images/frames/097490_lidar.png">
+<img src="/assets/images/frames/097490_lidar.png"></a>
+<figcaption>Driving in snowy conditions during the night on a curvy road. Frame #094790.</figcaption>
+</figure>
+
+<figure class="half">
+<a href="/assets/images/frames/096284_camera.jpg">
+<img src="/assets/images/frames/096284_camera.jpg"></a>
+<a href="/assets/images/frames/096284_lidar.png">
+<img src="/assets/images/frames/096284_lidar.png"></a>
+<figcaption>Driving on completely road completely covered in snow. Frame #096284</figcaption>
+</figure>
+
+<figure class="half">
+<a href="/assets/images/frames/058594_camera.jpg">
+<img src="/assets/images/frames/058594_camera.jpg"></a>
+<a href="/assets/images/frames/058594_lidar.png">
+<img src="/assets/images/frames/058594_lidar.png"></a>
+<figcaption>Arterial road during twilight. Frame #058594.</figcaption>
+</figure>
+
+
+<figure class="half">
+<a href="/assets/images/frames/053409_camera.jpg">
+<img src="/assets/images/frames/053409_camera.jpg"></a>
+<a href="/assets/images/frames/053409_lidar.png">
+<img src="/assets/images/frames/053409_lidar.png"></a>
+<figcaption>Highway driving during the night. The road and vehicles are only illuminated by headlights. Frame #053409.</figcaption>
+</figure>
 
 
 ## Additional Statistics
