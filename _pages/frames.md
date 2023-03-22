@@ -15,7 +15,7 @@ layout: splash
   <figcaption>Geographical distribution of ZOD Frames.</figcaption>
 </figure>
 
-The ZOD Frames dataset consists of `100k` annotated camera-LiDAR pairs, along with &plusmn; 1-second surrounding LiDAR, and high-precision GNSS. For more detailed information about the sensor setup please visit the [Sensor setup](/#sensor-setup) section on the [Home](/) page.
+The ZOD Frames dataset consists of `100k` annotated camera-LiDAR pairs, along with &plusmn;1-second surrounding LiDAR, and high-precision GNSS. For more detailed information about the sensor setup please visit the [Sensor setup](/#sensor-setup) section on the [Home](/) page.
 
 ZOD Frames is a **highly diverse dataset**, with data collected from **14 European countries** over two years. The geographical distribution is shown in the figure to the right and can be seen ranging from the snowy parts of northern Sweden to the sunny countryside of Italy. To quantitatively evaluate the geographical diversity of our dataset, we made use of the diversity area metric[^1], defined as the union of all `75m` (radius) diluted ego-poses in the dataset. Using this definition, ZOD Frames obtains an area metric of `705km²`, which could be compared to `5km²`, `17km²`, and `76km²` for nuScenes[^2], Argoverse 2[^3], and Waymo Open[^1] respectively. The dataset is also highly diverse in terms of time of day, road type, and weather, as shown in the figure below.
 
@@ -41,7 +41,7 @@ ZOD contains data from various driving conditions, ranging from slow-moving city
   <figcaption>The amount of annotated Frames per project.</figcaption>
 </figure>
 
-The ZOD Frames dataset is fully annotated (i.e., every *Frame*) for the `Objects`, `Lanes`, and `Road Condition` annotation tasks. Moreover, roughly 67% of all Frames are also annotated for the `Traffic Signs` and `Ego Road` annotation tasks, see the figure to the right. For more detail on each of the annotation tasks, please refer to the [Annotation](/annotation/) page.
+The ZOD Frames dataset is fully annotated (i.e., every *Frame*) for the `Objects`, `Lanes`, and `Road Condition` annotation tasks. Moreover, roughly 67% of all Frames are also annotated for the `Traffic Signs` and `Ego Road` annotation tasks, see the figure to the right. For more detail on each of the annotation tasks, please refer to the [Annotation](/annotations) page.
 
 **Note** that we provide annotations for the camera-LiDAR pairs, but not for the surrounding LiDAR data.
 
@@ -87,7 +87,7 @@ Here, we show some data samples from the dataset. We deliberately show scenes th
 <img src="/assets/images/frames/096284_camera.jpg" alt=""></a>
 <a href="/assets/images/frames/096284_lidar.png" title="Lidar Frame #096284" alt="Lidar Frame #096284">
 <img src="/assets/images/frames/096284_lidar.png" alt=""></a>
-<figcaption>Driving on completely road completely covered in snow. Frame #096284</figcaption>
+<figcaption>Driving on a road completely covered in snow. Frame #096284</figcaption>
 </figure>
 
 <figure class="half">
