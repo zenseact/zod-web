@@ -81,4 +81,4 @@ The Zenseact Open Dataset is developed and maintained by a group of researchers,
 <br>
 
 # Acknowledgments
-The Zenseact Open Dataset would not be possible without the support of several individuals within our organization. We would like to thank, without any particular order, the following people for their contributions to the dataset: Oleksandr Panasenko, Jakub Bochynski, Dónal Scanlan, Benny Nilsson, Jenny Widahl, Jonas Ekmark, Bolin Shao, Georgios Efthymiou, Erik Rosén, and Erik Coelingh.
+The Zenseact Open Dataset would not be possible without the support of several individuals within our organization. We would like to thank, without any particular order, the following people for their contributions to the dataset: Oleksandr Panasenko, Jakub Bochynski, Dónal Scanlan, Benny Nilsson, Jenny Widahl, Jonas Ekmark, Bolin Shao, Georgios Efthymiou, Erik Rosén, Oleksii Khakhlyuk, Pavel Lutskov, Maryam Fatemi, Joakim Johnander, Mats Nordlund, Joakim Frid, Goran Widborn, and Erik Coelingh.
