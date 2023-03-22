@@ -9,9 +9,7 @@ layout: splash
 # Annotations
 On this page, we provide detailed information about the annotations that are included in our dataset. Our annotations are created by highly skilled human annotators using commercial labeling tools and have undergone a rigorous quality control process to ensure their accuracy and consistency.
 
-The annotation companies we work with are [Kognic](https://www.kognic.com/) and [Scale](https://www.scale.com/), both of which are renowned for their expertise in providing high-quality annotations for computer vision tasks.
-
-We supply annotations for objects, lanes, traffic signs, ego road, and road surface, all of which are described in detail below. Note that the annotations can be easily read by using the development kit (`pip install zod`) found [here](https://github.com/zenseact/zod).
+We supply annotations for `Objects`, `Lanes`, `Traffic Signs`, `Ego Road`, and `Road Surface`, all of which are described in detail below. Note that the annotations can be easily read by using the development kit (`pip install zod`) found [here](https://github.com/zenseact/zod).
 
 ## Objects
 Objects refer to static and dynamic objects **visible in the image**. These objects are annotated with a tightly fitting 2D bounding box indicated by the pixel coordinates of its four outermost points. If the object is also present in the point cloud (range up to `245m`), the object is also annotated with a 9-DOF 3D bounding box described by the 3D-center (`x`, `y`, `z`), the 3D dimensions (`l`, `w`, `h`), and the 3D orientation quaternion (`qw`, `qx`, `qy`, `qz`).
@@ -93,8 +91,8 @@ This annotation task is made up of two subtasks: lane marking and road painting.
 The `InstanceID` property should be different between two instances if any of the following are met:
 - A lane marking is splitting into multiple lane markings. It can be that the lane marking paint creates a split or that it splits by context. A split also occurs when a new lane is formed, even if it does not split the actual lane marking itself
 - Multiple lane markings are merging into fewer lane markings. It can be that the lane marking paint is merging or a merge by context
-- A lane marking changes Colour. An instance can only consist of one color. Meaning two partly overlapping lane markings of different colors should be two instances
-- A lane marking changes from Single to multiple ( double etc., see the MultipleLanes property), and there is a gap in the transition. However, if one of the single lane markings is connected to one of the multiple lane markings, the connected lane marking should belong to the same instance.
+- A lane marking changes `Colour`. An instance can only consist of one color. Meaning two partly overlapping lane markings of different colors should be two instances
+- A lane marking changes from `Single` to multiple ( `Double` etc., see the `MultipleLanes` property), and there is a gap in the transition. However, if one of the single lane markings is connected to one of the multiple lane markings, the connected lane marking should belong to the same instance.
 - There is a distinct gap between lane markings, for example, if there is a refuge island between two lane markings.
 
 ### Road paintings
