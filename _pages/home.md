@@ -17,7 +17,7 @@ The **Zenseact Open Dataset** (ZOD) is a large multi-modal autonomous driving (A
 
 *Frames* consist of 100k curated camera images with two seconds of other supporting sensor data, while the 1473 *Sequences* and 29 *Drives* include the entire sensor suite for 20 seconds and a few minutes, respectively. To see examples from each of the subsets, please visit their respective pages.
 
-**Noteably**, ZOD is currently the only AD dataset released under the permissive `CC BY-SA 4.0` license, allowing for both commercial and non-commercial use. We believe that this will help the community to advance the state-of-the-art in autonomous driving as it can enable smaller companies to use the dataset for research, benchmarking, and development. For more information about the license, see [here](/license).
+**Notably**, ZOD is currently the only AD dataset released under the permissive `CC BY-SA 4.0` license, allowing for both commercial and non-commercial use. We believe that this will help the community to advance the state-of-the-art in autonomous driving as it can enable smaller companies to use the dataset for research, benchmarking, and development. For more information about the license, see [here](/license).
 
 ## Annotations
 Together with our dataset, we also release a comprehensive set of annotations for several different tasks. For more detailed information about the annotations, visit the [Annotations](/annotations) page. In summary, the following annotations are provided:
