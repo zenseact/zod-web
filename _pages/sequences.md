@@ -4,7 +4,10 @@ title:  "Sequences"
 categories: jekyll update
 layout: splash
 header:
-  image: /assets/images/sequences/zod.gif
+  video:
+    id: header-vid
+    src: /assets/videos/000374.mp4
+    provider: local
 ---
 <br>
 
