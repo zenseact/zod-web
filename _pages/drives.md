@@ -12,7 +12,7 @@ The ZOD Drives dataset consists of `29` multi-minute sequences, with full sensor
 
 ## Annotation
 
-Currently, the ZOD Drives dataset does not include any annotations. Its primary purpose is to support localization and mapping tasks, rather than perception tasks.
+Currently, the ZOD Drives dataset does not include any annotations. Its primary purpose is to support localization and mapping tasks.
 
 ## Data samples
 Below, we showcase a selection of data samples from the dataset, providing an insight into the variety and quality of the sequences.
