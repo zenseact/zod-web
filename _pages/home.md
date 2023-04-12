@@ -27,7 +27,7 @@ Together with our dataset, we also release a comprehensive set of annotations fo
 - **Traffic signs**: Classification labels with a taxonomy of 156 different traffic sign classes.
 - **Road condition**: Classification of the road-surface condition (e.g., wet or snow).
 
-The images below show examples of the annotations for the different tasks.
+The images below show examples of the annotations for the different tasks. Note that the images have been anonymized with Deep Neural Anonymization Technology (a.k.a Deep Fakes) to preserve the privacy of the identities in the images, including faces and license plates.
  {% include carousel.html height="45" unit="%" number="1" %}
 
 ## Sensor setup
