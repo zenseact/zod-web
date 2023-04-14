@@ -10,6 +10,9 @@ carousels:
     - image: /assets/images/static_objects.jpg
     - image: /assets/images/lane_markings.jpg
     - image: /assets/images/ego_road.jpg
+  - images:
+    - image: /assets/images/anon-faces.png
+    - image: /assets/images/anon-plates.png
 ---
 
 # Zenseact Open Dataset
@@ -27,8 +30,8 @@ Together with our dataset, we also release a comprehensive set of annotations fo
 - **Traffic signs**: Classification labels with a taxonomy of 156 different traffic sign classes.
 - **Road condition**: Classification of the road-surface condition (e.g., wet or snow).
 
-The images below show examples of the annotations for the different tasks. Note that the images have been anonymized with Deep Neural Anonymization Technology (a.k.a Deep Fakes) to preserve the privacy of the identities in the images, including faces and license plates.
- {% include carousel.html height="45" unit="%" number="1" %}
+The images below show examples of the annotations for the different tasks. Note that the images have been anonymized with Deep Neural Anonymization Technology (a.k.a Deep Fakes) to preserve the privacy of the identities in the images, including faces and license plates. For more information go to the [Anonymization](#anonymization) section.
+{% include carousel.html height="45" unit="%" number="1" %}
 
 ## Sensor setup
 ![Sensor setup](/assets/images/sensor_positions.png){: .align-right width="50%"}
@@ -42,6 +45,16 @@ The LiDAR point clouds are captured at `~9Hz` and stored in a standard binary fi
 The high-precision GNSS/IMU data is logged at `100Hz` and stored as `HDF5` files. The data has a `0.01m` position accuracy, `0.03deg` pitch/roll and `0.1deg` heading accuracy. The data contain `timestamp`, `latitude`, `longitude`, `altitude`, `heading`, `pitch`, `roll`, `velocities`, `accelerations`, `angular rates`, and `poses` relative to the first `pose` in the file.
 ##### Vehicle data: Production-grade vehicle data
 Various vehicle data are also released for *Sequences* and *Drives*. These include vehicle control signals such as `steering wheel angle`, `acceleration/brake pedal ratios`, and `turn indicator status`, as well as consumer-grade IMU and satellite positioning data. The vehicle control signals, IMU, and satellite positioning data are logged at `100Hz`, `50Hz`, and `1Hz` respectively.
+
+## Anonymization
+To protect the privacy of every individual in our dataset, and to comply with privacy regulations such as the European Union’s [General Data Protection Regulation (GDPR)](https://gdpr.eu/), we employ third-party services ([Brighter AI](https://brighter.ai)) to anonymize all images in our dataset. The anonymization should protect all personally identifiable information in the images, including faces and license plates.
+
+For *Frames* we supply two types of anonymization, namely [Deep Neural Anonymization Technology (DNAT)](https://brighter.ai/product/) and blurring. We studied the effects that these two anonymization methods have on downstream computer vision tasks and found no significant difference between the two. For more details about the experiments, see our [paper](#citation). After this study, we anonymized the *Sequences* and *Drives* using the blurring anonymization method only.
+
+Two show the difference between the DNAT and blurred images, we show some examples below.
+{% include carousel.html height="28" unit="%" %}
+
+
 
 ## Citation
 If you publish work that uses Zenseact Open Dataset, please cite our [coming soon]()
