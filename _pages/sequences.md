@@ -24,14 +24,61 @@ We plan to release full-sequence annotations for some tasks in the near future, 
 ## Samples
 
 Below, we showcase a selection of data samples from the dataset. These samples have been chosen to specifically highlight interesting and diverse traffic scenarios.
+<figure>
+<video controls preload="auto" class="header__video">
+    <source src="/assets/videos/000045.webm" type="video/webm">
+</video>
+<figcaption>Sequence #000045.</figcaption>
+</figure>
+
+<figure>
+<video controls preload="auto" class="header__video">
+    <source src="/assets/videos/000134.webm" type="video/webm">
+</video>
+<figcaption>Sequence #000134.</figcaption>
+</figure>
 
 
-<!-- <figure class="half">
-<a href="/assets/images/frames/000766_camera.jpg" title="Camera Frame #000766" alt="Camera Frame #000766">
-<img src="/assets/images/frames/000766_camera.jpg"  alt=""></a>
-<a href="/assets/images/frames/000766_lidar.png" title="Lidar Frame #000766" alt="Lidar Frame #000766">
-<img src="/assets/images/frames/000766_lidar.png" alt=""></a>
-<figcaption>Rainy scene, obscuring both camera and LiDAR. Note the hallucinated wall in the point cloud (in the front-left of the ego-vehicle) caused by water droplets on the sensor. Frame #000766.</figcaption>
-</figure> -->
+<figure>
+<video controls preload="auto" class="header__video">
+    <source src="/assets/videos/000211.webm" type="video/webm">
+</video>
+<figcaption>Sequence #000211.</figcaption>
+</figure>
 
-<!-- point cloud accumulation -->
+
+<figure>
+<video controls preload="auto" class="header__video">
+    <source src="/assets/videos/000330.webm" type="video/webm">
+</video>
+<figcaption>Sequence #000330.</figcaption>
+</figure>
+
+
+<figure>
+<video controls preload="auto" class="header__video">
+    <source src="/assets/videos/000609.webm" type="video/webm">
+</video>
+<figcaption>Sequence #000609.</figcaption>
+</figure>
+
+
+
+<figure>
+<video controls preload="auto" class="header__video">
+    <source src="/assets/videos/000657.webm" type="video/webm">
+</video>
+<figcaption>Sequence #000657.</figcaption>
+</figure>
+
+
+
+<figure>
+<video controls preload="auto" class="header__video">
+    <source src="/assets/videos/000742.webm" type="video/webm">
+</video>
+<figcaption>Sequence #000742.</figcaption>
+</figure>
+
+
+
