@@ -39,3 +39,10 @@ footer:
 
 atom_feed:
   hide: true
+
+# Google Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-J92YMVMQGH"
+    anonymize_ip: false # default
