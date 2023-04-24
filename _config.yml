@@ -25,6 +25,7 @@ defaults:
     values:
       layout: splash
       author_profile: true
+      analytics: true
 
 logo: "/assets/images/logo.png"
 
