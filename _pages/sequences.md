@@ -25,14 +25,14 @@ We plan to release full-sequence annotations for some tasks in the near future, 
 
 Below, we showcase a selection of data samples from the dataset. These samples have been chosen to specifically highlight interesting and diverse traffic scenarios.
 <figure>
-<video controls preload="auto" class="header__video">
+<video autoplay loop muted playsinline preload="auto" class="header__video">
     <source src="/assets/videos/000045.webm" type="video/webm">
 </video>
 <figcaption>Downtown sequence with pedestrains jay-walking. Sequence #000045.</figcaption>
 </figure>
 
 <figure>
-<video controls preload="auto" class="header__video">
+<video autoplay loop muted playsinline preload="auto" class="header__video">
     <source src="/assets/videos/000134.webm" type="video/webm">
 </video>
 <figcaption>Garbage truck crossing our path in a suprising way. Sequence #000134.</figcaption>
@@ -40,7 +40,7 @@ Below, we showcase a selection of data samples from the dataset. These samples h
 
 
 <figure>
-<video controls preload="auto" class="header__video">
+<video autoplay loop muted playsinline preload="auto" class="header__video">
     <source src="/assets/videos/000211.webm" type="video/webm">
 </video>
 <figcaption>Crowded traffic in a tunnel. Sequence #000211.</figcaption>
@@ -48,7 +48,7 @@ Below, we showcase a selection of data samples from the dataset. These samples h
 
 
 <figure>
-<video controls preload="auto" class="header__video">
+<video autoplay loop muted playsinline preload="auto" class="header__video">
     <source src="/assets/videos/000330.webm" type="video/webm">
 </video>
 <figcaption>Highway sequence with a last-minute double lane change. Sequence #000330.</figcaption>
@@ -56,7 +56,7 @@ Below, we showcase a selection of data samples from the dataset. These samples h
 
 
 <figure>
-<video controls preload="auto" class="header__video">
+<video autoplay loop muted playsinline preload="auto" class="header__video">
     <source src="/assets/videos/000609.webm" type="video/webm">
 </video>
 <figcaption>Crowded scene with motorcyclist traversing between vehicles. Sequence #000609.</figcaption>
@@ -65,7 +65,7 @@ Below, we showcase a selection of data samples from the dataset. These samples h
 
 
 <figure>
-<video controls preload="auto" class="header__video">
+<video autoplay loop muted playsinline preload="auto" class="header__video">
     <source src="/assets/videos/000657.webm" type="video/webm">
 </video>
 <figcaption>Arterial road in a snowy environment. Sequence #000657.</figcaption>
@@ -74,7 +74,7 @@ Below, we showcase a selection of data samples from the dataset. These samples h
 
 
 <figure>
-<video controls preload="auto" class="header__video">
+<video autoplay loop muted playsinline preload="auto" class="header__video">
     <source src="/assets/videos/000742.webm" type="video/webm">
 </video>
 <figcaption>Highway road with a large contruction site occuping one lane. Sequence #000742.</figcaption>
