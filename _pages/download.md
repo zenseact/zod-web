@@ -33,22 +33,25 @@ Best regards,
 Once we have received your request, we will review it and get back to you as soon as possible with a link to the Dropbox folder that should be used together with the downloading script provided in the `zod` CLI interface.
 
 
-## Downloading using the CLI
-
-The following will install the `zod` CLI tool and download the mini dataset for initial testing and exploration:
-
-{% highlight python linenos %}
+## Download using the CLI
+The following will install the `zod` CLI tool and start an interactive downloading process:
+```bash
 pip install zod[cli]
-zod download --url <url/to/shared/dropbox/folder> --output-dir <path/to/output/dir> --rm frames --mini
-{% endhighlight %}
-
-To download the full *Frames* dataset, just drop the `--mini` flag:
-
-{% highlight python linenos %}
-zod download --url <url/to/shared/dropbox/folder> --output-dir <path/to/output/dir> --rm frames
-{% endhighlight %}
-
-The following flags can download additional parts of the dataset (note that the storage requirements can increase significantly):
-- `--num-scans-before=-1` will download 10 scans before each core frame.
-- `--num-scans-after=-1` will download 10 scans after each core frame.
-- `--dnat` will download the images with DNAT (deep-fake) anonymization.
+zod download
+```
+This will prompt you for the required information, present you with a summary of the download, and then ask for confirmation. You can of course also specify all the required information directly on the command line, and avoid the confirmation using `--no-confirm` or `-y`. For example:
+```bash
+zod download -y --url="<download-link>" --output-dir=<path/to/outputdir> --subset=frames --version=mini
+```
+By default, all data streams are downloaded for ZodSequences and ZodDrives. For ZodFrames, DNAT versions of the images, and surrounding (non-keyframe) lidar scans are excluded. To download them as well, run:
+```bash
+zod download -y --url="<download-link>" --output-dir=<path/to/outputdir> --subset=frames --version=full --num-scans-before=-1 --num-scans-after=-1 --dnat
+```
+If you want to exclude some of the data streams, you can do so by specifying the `--no-<stream>` flag. For example, to download only the DNAT images, infos, and annotations, run:
+```bash
+zod download --dnat --no-blur --no-lidar --no-oxts --no-vehicle-data
+```
+Finally, for a full list of options you can of course run:
+```bash
+zod download --help
+```
