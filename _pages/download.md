@@ -8,7 +8,7 @@ categories: jekyll update
 # Downloading ZOD
 We have made the ZOD available for download through a shared Dropbox folder. To download the dataset, you need to request access to the folder. Once you have been granted access, you can download the dataset using the command line interface (CLI) tool.
 ## Requesting access
-If you are interested in using ZOD, we kindly ask you to requesting access by emailing us at <opendataset@zenseact.com>. Your request should include the following information:
+If you are interested in using ZOD, we kindly ask you to request access by emailing us at <opendataset@zenseact.com>. Your request should include the following information:
 - Your name
 - Your affiliation
 - Your email address connected to your Dropbox account
