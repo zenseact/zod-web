@@ -25,6 +25,7 @@ defaults:
     values:
       layout: splash
       author_profile: true
+      analytics: true
 
 logo: "/assets/images/logo.png"
 
@@ -39,3 +40,10 @@ footer:
 
 atom_feed:
   hide: true
+
+# Google Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-J92YMVMQGH"
+    anonymize_ip: false # default
