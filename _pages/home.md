@@ -49,7 +49,7 @@ Various vehicle data are also released for *Sequences* and *Drives*. These inclu
 ## Anonymization
 To protect the privacy of every individual in our dataset, and to comply with privacy regulations such as the European Union’s [General Data Protection Regulation (GDPR)](https://gdpr.eu/), we employ third-party services ([Brighter AI](https://brighter.ai)) to anonymize all images in our dataset. The anonymization should protect all personally identifiable information in the images, including faces and license plates.
 
-For *Frames* we supply two types of anonymization, namely [Deep Neural Anonymization Technology (DNAT)](https://brighter.ai/product/) and blurring. We studied the effects that these two anonymization methods have on downstream computer vision tasks and found no significant difference between the two. For more details about the experiments, see our [paper](#citation). After this study, we anonymized the *Sequences* and *Drives* using the blurring anonymization method only.
+For *Frames* we supply two types of anonymization, namely [Deep Neural Anonymization Technology (DNAT)](https://brighter.ai/product/) and blurring. We studied the effects that these two anonymization methods have on downstream computer vision tasks and found no significant difference between the two. For more details about the experiments, see our [paper](https://arxiv.org/abs/2305.02008). After this study, we anonymized the *Sequences* and *Drives* using the blurring anonymization method only.
 
 Two show the difference between the DNAT and blurred images, we show some examples below.
 {% include carousel.html height="28" unit="%" %}
@@ -57,14 +57,15 @@ Two show the difference between the DNAT and blurred images, we show some exampl
 
 
 ## Citation
-If you publish work that uses Zenseact Open Dataset, please cite our [coming soon]()
+If you publish work that uses Zenseact Open Dataset, please cite our [paper](https://arxiv.org/abs/2305.02008)
 
-```
-@misc{zod2023,
-  author = {TODO},
-  title = {ZOD: A large-scale and diverse multimodal dataset for autonomous driving},
-  year = {2023},
-  publisher = {TODO},
-  journal = {TODO},
+```bibtex
+@misc{alibeigi2023zenseact,
+      title={Zenseact Open Dataset: A large-scale and diverse multimodal dataset for autonomous driving},
+      author={Mina Alibeigi and William Ljungbergh and Adam Tonderski and Georg Hess and Adam Lilja and Carl Lindstrom and Daria Motorniuk and Junsheng Fu and Jenny Widahl and Christoffer Petersson},
+      year={2023},
+      eprint={2305.02008},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```

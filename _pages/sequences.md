@@ -77,7 +77,7 @@ Below, we showcase a selection of data samples from the dataset. These samples h
 <video autoplay loop muted playsinline preload="auto" class="header__video">
     <source src="/assets/videos/000742.webm" type="video/webm">
 </video>
-<figcaption>Highway road with a large contruction site occuping one lane. Sequence #000742.</figcaption>
+<figcaption>Highway road with a large construction site occupying one lane. Sequence #000742.</figcaption>
 </figure>
 
 
