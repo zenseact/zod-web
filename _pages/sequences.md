@@ -28,14 +28,14 @@ Below, we showcase a selection of data samples from the dataset. These samples h
 <video autoplay loop muted playsinline preload="auto" class="header__video">
     <source src="/assets/videos/000045.webm" type="video/webm">
 </video>
-<figcaption>Downtown sequence with pedestrains jay-walking. Sequence #000045.</figcaption>
+<figcaption>Downtown sequence with pedestrians jay-walking. Sequence #000045.</figcaption>
 </figure>
 
 <figure>
 <video autoplay loop muted playsinline preload="auto" class="header__video">
     <source src="/assets/videos/000134.webm" type="video/webm">
 </video>
-<figcaption>Garbage truck crossing our path in a suprising way. Sequence #000134.</figcaption>
+<figcaption>Garbage truck crossing our path in a surprising way. Sequence #000134.</figcaption>
 </figure>
 
 
