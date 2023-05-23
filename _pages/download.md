@@ -5,15 +5,6 @@ categories: jekyll update
 ---
 <br>
 
-**Notice:** Due to unexpectedly high demand, we are currently experiencing issues with our download service. We are working on a solution and will update this page as soon as possible. We very much apologize for the inconvenience. <br> <br> You can still use the download utilities from the dev-kit to try and download the dataset, however, if you obtain an error message similar to that below we suggest that you wait and try to download the dataset the next day as the error is caused by daily bandwidth issues.
-{: .notice--danger}
-
-```
-Dropbox raised the following error:
-    ApiError('<some-code>', ListFolderError('path', LookupError('not_found', None)))
-This could be due to a bad url.
-```
-
 # Downloading ZOD
 We have made the ZOD available for download through a shared Dropbox folder. To download the dataset, you need to request access to the folder. Once you have been granted access, you can download the dataset using the command line interface (CLI) tool.
 ## Requesting access
