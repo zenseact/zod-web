@@ -5,9 +5,6 @@ categories: jekyll update
 ---
 <br>
 
-**Notice:** Dropbox is currently experiencing issues with their API. This means that the download script will not work, with an error stating that there are no files available for download (most versions will mistakingly blame too many filters). We are attempting to find a workaround and hope that the underlying issue will be fixed soon. In the meantime, you can download the dataset manually from the Dropbox folder. We apologize for the inconvenience.
-{: .notice--danger}
-
 # Downloading ZOD
 We have made the ZOD available for download through a shared Dropbox folder. To download the dataset, you need to request access to the folder. Once you have been granted access, you can download the dataset using the command line interface (CLI) tool.
 ## Requesting access
