@@ -16,11 +16,14 @@ carousels:
 ---
 
 # Zenseact Open Dataset
-The **Zenseact Open Dataset** (ZOD) is a large multi-modal autonomous driving (AD) dataset, created by researchers at Zenseact. It was collected over a 2-year period in 14 different European counties, using a fleet of vehicles equipped with a full sensor suite. The dataset consists of three subsets: [*Frames*](/frames), [*Sequences*](/sequences), and [*Drives*](/drives), designed to encompass both data diversity and support for spatiotemporal learning, sensor fusion, localization, and mapping.
+The **Zenseact Open Dataset** (ZOD) is a large multi-modal autonomous driving (AD) dataset, created by researchers at Zenseact. It was collected over a 2-year period in 14 different European counties, using a fleet of vehicles equipped with a full sensor suite. The dataset consists of three subsets: [*Frames*](/frames), [*Sequences*](/sequences), and [*Drives*](/drives), designed to encompass both data diversity and support for spatiotemporal learning, sensor fusion, localization, and mapping. Together with the data, we have developed a SDK containing tutorials, downloading functionality, and a dataset API for easy access to the data. The development kit is available on [Github](https://github.com/zenseact/zod).
 
 *Frames* consist of 100k curated camera images with two seconds of other supporting sensor data, while the 1473 *Sequences* and 29 *Drives* include the entire sensor suite for 20 seconds and a few minutes, respectively. To see examples from each of the subsets, please visit their respective pages.
 
 **Notably**, ZOD is currently the only AD dataset released under the permissive `CC BY-SA 4.0` license, allowing for both commercial and non-commercial use. We believe that this will help the community to advance the state-of-the-art in autonomous driving as it can enable smaller companies to use the dataset for research, benchmarking, and development. For more information about the license, see [here](/license).
+
+**News:** Our paper got accepted to ICCV 2023. Please find the paper [**here**](https://arxiv.org/abs/2305.02008).
+{: .notice--success}
 
 ## Annotations
 Together with our dataset, we also release a comprehensive set of annotations for several different tasks. For more detailed information about the annotations, visit the [Annotations](/annotations) page. In summary, the following annotations are provided:
@@ -57,15 +60,13 @@ Two show the difference between the DNAT and blurred images, we show some exampl
 
 
 ## Citation
-If you publish work that uses Zenseact Open Dataset, please cite our [paper](https://arxiv.org/abs/2305.02008)
+If you publish work that uses Zenseact Open Dataset, please cite our [paper](https://arxiv.org/abs/2305.02008).
 
 ```bibtex
-@misc{alibeigi2023zenseact,
+@inproceedings{alibeigi2023zenseact,
       title={Zenseact Open Dataset: A large-scale and diverse multimodal dataset for autonomous driving},
-      author={Mina Alibeigi and William Ljungbergh and Adam Tonderski and Georg Hess and Adam Lilja and Carl Lindstrom and Daria Motorniuk and Junsheng Fu and Jenny Widahl and Christoffer Petersson},
-      year={2023},
-      eprint={2305.02008},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      author={Alibeigi, Mina and Ljungbergh, William and Tonderski, Adam and Hess, Georg and Lilja, Adam and Lindstrom, Carl and Motorniuk, Daria and Fu, Junsheng and Widahl, Jenny and Petersson, Christoffer},
+      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+      year={2023}
 }
 ```

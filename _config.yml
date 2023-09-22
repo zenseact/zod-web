@@ -37,6 +37,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/zenseact"
+    - label: "Paper"
+      icon: "fas fa-fw fa-file"
+      url: "https://arxiv.org/abs/2305.02008"
 
 atom_feed:
   hide: true
