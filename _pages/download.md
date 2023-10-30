@@ -58,7 +58,7 @@ zod download --help
 ```
 
 ## Downloading using torrents
-We are now also hosting the dataset via [Academic Torrents](https://academictorrents.com/). You can find the [Frames](ttps://academictorrents.com/details/329ae74426e067ef06b82241b5906400ca3caf03), [Sequences](https://academictorrents.com/details/95ece9c22470c4f7df51a82bcc3407cc038419be) and [Drives](https://academictorrents.com/details/a05ab2e524dc38c1498fcc9fb621329cc97e3837) subsets there.
+We are now also hosting the dataset via [Academic Torrents](https://academictorrents.com/). You can find the [Frames](https://academictorrents.com/details/329ae74426e067ef06b82241b5906400ca3caf03), [Sequences](https://academictorrents.com/details/95ece9c22470c4f7df51a82bcc3407cc038419be) and [Drives](https://academictorrents.com/details/a05ab2e524dc38c1498fcc9fb621329cc97e3837) subsets there.
 
 We are currently working on integrating torrent downloading into the CLI, but for now, you can download the torrent files from their respective pages and use your favorite torrent client to download the data. We recommend using [Transmission](https://transmissionbt.com/) or [aria2c](https://aria2.github.io/).
 {: .notice--info}
