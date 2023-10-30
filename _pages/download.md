@@ -6,7 +6,8 @@ categories: jekyll update
 <br>
 
 # Downloading ZOD
-We have made the ZOD available for download through a shared Dropbox folder. To download the dataset, you need to request access to the folder. Once you have been granted access, you can download the dataset using the command line interface (CLI) tool. The CLI tool, along with an extensive development kit, can be found on Github [here](https://github.com/zenseact/zod).
+We currently provide two ways of downloading the datasets, either through a shared **Dropbox** folder or via [**Academic Torrents**](https://academictorrents.com/).
+To download the dataset, you need to request access and, once granted, you can download the dataset using the command line interface (CLI) tool. The CLI tool, along with an extensive development kit, can be found on Github [here](https://github.com/zenseact/zod).
 ## Requesting access
 If you are interested in using ZOD, we kindly ask you to request access by emailing us at <opendataset@zenseact.com>. Your request should include the following information:
 - Your name
@@ -30,7 +31,7 @@ Best regards,
 <your name>
 ```
 
-Once we have received your request, we will review it and get back to you as soon as possible with a link to the Dropbox folder that should be used together with the downloading script provided in the `zod` CLI interface.
+Once we have received your request, we will review it and get back to you as soon as possible with a link to the Dropbox folder that should be used together with the downloading script provided in the `zod` CLI interface, see the [Downloading using the CLI](#download-using-the-cli) section. You can also download via Academic Torrents, see the [Downloading using torrents](#downloading-using-torrents) section below for more information.
 
 
 ## Download using the CLI
@@ -55,3 +56,9 @@ Finally, for a full list of options you can of course run:
 ```bash
 zod download --help
 ```
+
+## Downloading using torrents
+We are now also hosting the dataset via [Academic Torrents](https://academictorrents.com/). You can find the [Frames](ttps://academictorrents.com/details/329ae74426e067ef06b82241b5906400ca3caf03), [Sequences](https://academictorrents.com/details/95ece9c22470c4f7df51a82bcc3407cc038419be) and [Drives](https://academictorrents.com/details/a05ab2e524dc38c1498fcc9fb621329cc97e3837) subsets there.
+
+We are currently working on integrating torrent downloading into the CLI, but for now, you can download the torrent files from their respective pages and use your favorite torrent client to download the data. We recommend using [Transmission](https://transmissionbt.com/) or [aria2c](https://aria2.github.io/).
+{: .notice--info}
