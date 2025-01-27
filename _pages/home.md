@@ -22,7 +22,7 @@ The **Zenseact Open Dataset** (ZOD) is a large multi-modal autonomous driving (A
 
 **Notably**, ZOD is currently the only AD dataset released under the permissive `CC BY-SA 4.0` license, allowing for both commercial and non-commercial use. We believe that this will help the community to advance the state-of-the-art in autonomous driving as it can enable smaller companies to use the dataset for research, benchmarking, and development. For more information about the license, see [here](/license).
 
-**News:** Our paper got accepted to ICCV 2023. Please find the paper [**here**](https://arxiv.org/abs/2305.02008).
+**News:** We have added radar point cloud data to ZOD Sequences and Drives.
 {: .notice--success}
 
 ## Annotations
@@ -44,6 +44,10 @@ The camera data is captured by high-resolution (8MP) wide-angle fish-eye lenses.
 ##### LiDAR: 1x Velodyne VLS128 and 2x Velodyne VLP16.
 
 The LiDAR point clouds are captured at `~9Hz` and stored in a standard binary file format (`.npy`) per scan. Each file contains data from all three LiDAR sensors, represented as a 6-dimensional vector with the timestamp, 3D coordinates (`x`, `y`, and `z`), `intensity`, and `diode index`. The timestamp is relative to the frame timestamp in UTC, and the 3D coordinates are in meters. `Intensity` is a measure of the reflection magnitude ranging from `0-255`, and the `diode index` specifies the emitter that produced the point, where `[0, 128)` is the VLS128, and `[128, 144)`, `[144, 160)` is the left and right VLP-16, respectively. Each LiDAR point cloud contains around `254k` points on average and ranges up to `245m`.
+
+##### Radar: Continental ARS513 B1 sample – year 2022
+The radar point clouds are captured in every `60 ms` and stored in a standard binary file format (`.npy`) for each ZOD Sequence and Drive. The data contains timestamps in UTC, radar range in meters, azimuth and elevation angles in radians, range rate in meters per second, amplitude (or SNR), validity, mode, and quality. The radar switches between three modes depending on the ego vehicle speed, and the sensor has a different maximum detection range in each mode. Mode `0` represents the radar point clouds captured when the vehicle speed is less than `60` to `65` kph with a maximum detection range of `102` meters, while modes `1` and `2` represent vehicle speeds of between `60` to `65` kph and `110` to `115` kph, and more than `110` to `115` kph, respectively, with maximum detection ranges of `178.5` and `250` meters. The azimuth angle values are between `-50` and `50` degrees. The quality value also changes from `0` to `2`, with `2` indicating the highest quality for the detections. The radar extrinsic calibration information (i.e., latitude, longitude, and angle) is provided in calibration files, indicating its position relative to the reference coordinate frame.
+
 ##### GNSS/IMU: High-precision OxTS.
 The high-precision GNSS/IMU data is logged at `100Hz` and stored as `HDF5` files. The data has a `0.01m` position accuracy, `0.03deg` pitch/roll and `0.1deg` heading accuracy. The data contain `timestamp`, `latitude`, `longitude`, `altitude`, `heading`, `pitch`, `roll`, `velocities`, `accelerations`, `angular rates`, and `poses` relative to the first `pose` in the file.
 ##### Vehicle data: Production-grade vehicle data
