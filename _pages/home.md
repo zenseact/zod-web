@@ -22,7 +22,7 @@ The **Zenseact Open Dataset** (ZOD) is a large multi-modal autonomous driving (A
 
 **Notably**, ZOD is currently the only AD dataset released under the permissive `CC BY-SA 4.0` license, allowing for both commercial and non-commercial use. We believe that this will help the community to advance the state-of-the-art in autonomous driving as it can enable smaller companies to use the dataset for research, benchmarking, and development. For more information about the license, see [here](/license).
 
-**News:** We have added radar point cloud data to ZOD Sequences and Drives.
+**News:** [Jan. 27, 2024] We have added radar point cloud data to ZOD Sequences and Drives.
 {: .notice--success}
 
 ## Annotations

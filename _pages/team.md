@@ -66,7 +66,7 @@ gallery:
 
   - title: "Maryam Fatemi"
     image_path: /assets/images/profiles/maryam_fatemi.jpg
-    position: "Research Lead"
+    position: "Researcher"
     scholar: "https://scholar.google.com/citations?user=GpcBXmoAAAAJ&hl=en&oi=ao"
     linkedin: "https://www.linkedin.com/in/maryam-fatemi-b7769929"
 
