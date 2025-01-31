@@ -51,11 +51,24 @@ gallery:
     github: "https://github.com/carlinds"
     scholar: "https://scholar.google.com/citations?hl=en&user=ufjSqs0AAAAJ"
 
+  - title: "Mahan Rafidashti"
+    image_path: /assets/images/profiles/mahan_rafidashti.png
+    position: "PhD Student"
+    linkedin: "linkedin.com/in/mahandokht-rafidashti-906785192"
+    github: "https://github.com/mrafidashti"
+    scholar: "https://scholar.google.com/citations?user=Et4NaUoAAAAJ&hl=en"
+
   - title: "Daria Motorniuk"
     image_path: /assets/images/profiles/daria_motorniuk.jpg
     position: "Development Engineer"
     scholar: https://scholar.google.com/citations?hl=en&user=RT0Mw8wAAAAJ
     linkedin: "https://www.linkedin.com/in/daria-motorniuk-a933a37a"
+
+  - title: "Maryam Fatemi"
+    image_path: /assets/images/profiles/maryam_fatemi.jpg
+    position: "Researcher"
+    scholar: "https://scholar.google.com/citations?user=GpcBXmoAAAAJ&hl=en&oi=ao"
+    linkedin: "https://www.linkedin.com/in/maryam-fatemi-b7769929"
 
   - title: "Junsheng Fu"
     image_path: /assets/images/profiles/junsheng_fu.jpg
@@ -81,4 +94,4 @@ The Zenseact Open Dataset is developed and maintained by a group of researchers,
 <br>
 
 # Acknowledgments
-The Zenseact Open Dataset would not be possible without the support of several individuals within our organization. We would like to thank, without any particular order, the following people for their contributions to the dataset: Oleksandr Panasenko, Jakub Bochynski, Dónal Scanlan, Benny Nilsson, Jenny Widahl, Jonas Ekmark, Bolin Shao, Georgios Efthymiou, Erik Rosén, Oleksii Khakhlyuk, Pavel Lutskov, Maryam Fatemi, Joakim Johnander, Mats Nordlund, Joakim Frid, Goran Widborn, and Erik Coelingh.
+The Zenseact Open Dataset would not be possible without the support of several individuals within our organization. We would like to thank, without any particular order, the following people for their contributions to the dataset: Oleksandr Panasenko, Jakub Bochynski, Dónal Scanlan, Benny Nilsson, Jenny Widahl, Jonas Ekmark, Bolin Shao, Georgios Efthymiou, Erik Rosén, Oleksii Khakhlyuk, Pavel Lutskov, Joakim Johnander, Mats Nordlund, Joakim Frid, Goran Widborn, Anupam Karippath, Christian Sjögreen, Veronika Nihlen, and Erik Coelingh.
